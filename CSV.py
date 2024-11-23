@@ -11,3 +11,11 @@ file_path = 'datos.csv'
 df = pd.read_csv(file_path)
 # Mostrar las primeras filas del DataFrame
 print(df.head())
+
+# Para archivos .xls
+# Define la ruta del archivo de Excel
+file_path = 'ruta/al/archivo.xlsx'
+# Cargar el archivo de Excel en un DataFrame
+df = pd.read_excel(file_path)
+# Mostrar las primeras filas del DataFrame
+print(df.head())
